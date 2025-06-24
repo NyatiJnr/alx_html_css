@@ -1,1 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/*css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    position: absolute;
+    left: 0;
+    top: 26px;
+    width: 100%;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+.navbar_menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar_link {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: " Source Sans 3", sans-serif;
+    font-weight: 700;
+}
+
+.hero-section {
+    width:100%;
+    background-image: url(images/Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.hero-banner {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    line-height: 70px;
+    padding-bottom: 100%;
+
+}
+
+.hero-banner-title {
+    font-family: " Source Sans 3", sans-serif         ;
+    font-size: 120px;
+    color: white;
+    margin-top: 280px;
+}
+
+.hero-banner-subtitle {
+    font-family: " Source Sans 3", sans-serif;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    word-spacing: 75px;
+
+}
+
+.btn {
+    font-size: 12px;
+    background-color: #ac60e6;
+    color: white;
+    margin: 18px auto 0px auto;
+    border-radius: 45px;
+    font-weight: 400;
+    display: block;
+    padding: 14px 30px;
+    border: none;
+    cursor: pointer;
+    
+
+
+}
+
+.pros-section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.pros-section-title {
+    font-size: 32px;
+    font-family: " Source Sans 3", sans-serif;
+    font-weight:700;
+    color: #ac60e6;
+    margin: 80px 0px;
+
+}
+
+.highlight-text {
+    color: #fff;
+     font: weight 300;
+}
+
+.pros-grid {
+ width: 80%;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+}
+
+.pros-card {
+    flex: 1;
+}
+
+.pros-card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.pros-card-name {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.pros-card-title {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-style: italic;
+}
+
+
+
+
+
 
